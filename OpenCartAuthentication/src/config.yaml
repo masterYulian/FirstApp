@@ -1,0 +1,48 @@
+valid_user_credentials:
+  first_name: 'Yulian'
+  last_name: 'Mylian'
+  email: 'tuserfirst@gmail.com'
+  telephone: '+38 (063) 874 45 52'
+  company: 'SoftServe'
+  address_1: 'street Shevchenko 352/32'
+  city: 'Lviv'
+  postcode: '79069'
+  country_id: '220'
+  zone_id: '3493'
+  password: 'tuserfirst12345'
+
+invalid_user_email_credentials:
+  first_name: 'Invalid first name'
+  last_name: 'Invalid last name'
+  email: 'tuserfirst@gmail.com'
+  telephone: 'no phone number'
+  company: 'company'
+  address_1: 'undefinded'
+  city: 'no city data'
+  postcode: 'no postcode'
+  country_id: '220'
+  zone_id: '3493'
+  password: 'qazwsxedc'
+
+invalid_user_required_field_empty:
+  first_name: ''
+  last_name: ''
+  email: 'tuserfirst@gmail.com'
+  telephone: 'no phone number'
+  company: 'company'
+  address_1: 'undefinded'
+  city: 'no data'
+  postcode: 'no postcode'
+  country_id: '220'
+  zone_id: '3493'
+  password: 'qazwsxedc'
+
+user_login_data:
+  email: 'test@gmail.com'
+  password: 'qwerty'
+
+addtional_data:
+  registration_link: "http://oppencart.herokuapp.com/index.php?route=account/register"
+  login_link: "http://openncart.herokuapp.com/index.php?route=account/login"
+  account_link: "http://openncart.herokuapp.com/index.php?route=account/account"
+
