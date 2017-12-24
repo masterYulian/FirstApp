@@ -28,6 +28,7 @@ GEM
     method_source (0.9.0)
     mimemagic (0.3.2)
     mini_portile2 (2.3.0)
+    mustermann (1.0.1)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     page-object (2.2.4)
@@ -46,6 +47,9 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
     rainbow (3.0.0)
     rake (12.3.0)
     rspec (3.7.0)
@@ -73,9 +77,15 @@ GEM
     selenium-webdriver (3.8.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
     systemu (2.6.5)
     test-unit (3.2.7)
       power_assert
+    tilt (2.0.8)
     unicode-display_width (1.3.0)
     uuid (2.3.8)
       macaddr (~> 1.0)
@@ -96,6 +106,7 @@ DEPENDENCIES
   rspec
   rubocop
   selenium-webdriver
+  sinatra
   test-unit
 
 BUNDLED WITH
